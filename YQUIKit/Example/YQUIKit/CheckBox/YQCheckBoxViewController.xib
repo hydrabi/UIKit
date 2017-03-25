@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YQCheckBoxViewController">
+            <connections>
+                <outlet property="circleCheckBox" destination="rWn-zD-Rcp" id="5bF-e6-waA"/>
+                <outlet property="mySwitch" destination="R2M-ld-vQu" id="Pub-ic-GS2"/>
+                <outlet property="squreCheckBox" destination="A0a-AW-879" id="zK9-7a-NN0"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rWn-zD-Rcp" customClass="YQCheckBox">
+                    <rect key="frame" x="196" y="50" width="44" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="9ZW-D2-nWJ"/>
+                        <constraint firstAttribute="width" constant="44" id="JoZ-85-dZt"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A0a-AW-879" customClass="YQCheckBox">
+                    <rect key="frame" x="196" y="144" width="44" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="Me5-OS-QMv"/>
+                        <constraint firstAttribute="width" constant="44" id="v1z-Ny-sCn"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="圆形风格的CheckBox" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cSm-zJ-7MJ">
+                    <rect key="frame" x="16" y="62" width="164" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="矩形风格的CheckBox" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gsc-Wn-b3k">
+                    <rect key="frame" x="16" y="155.5" width="164" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="橙色的UISwitch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqR-A5-BzM">
+                    <rect key="frame" x="16" y="243" width="120" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R2M-ld-vQu">
+                    <rect key="frame" x="152" y="238" width="51" height="31"/>
+                </switch>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="gsc-Wn-b3k" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="6Yn-Ln-TPy"/>
+                <constraint firstItem="rWn-zD-Rcp" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="50" id="AdN-QP-xHy"/>
+                <constraint firstItem="rWn-zD-Rcp" firstAttribute="leading" secondItem="cSm-zJ-7MJ" secondAttribute="trailing" constant="16" id="LKW-I2-eSl"/>
+                <constraint firstItem="A0a-AW-879" firstAttribute="top" secondItem="rWn-zD-Rcp" secondAttribute="bottom" constant="50" id="UA2-vY-9qF"/>
+                <constraint firstItem="R2M-ld-vQu" firstAttribute="leading" secondItem="iqR-A5-BzM" secondAttribute="trailing" constant="16" id="UxX-hW-jzw"/>
+                <constraint firstItem="R2M-ld-vQu" firstAttribute="top" secondItem="A0a-AW-879" secondAttribute="bottom" constant="50" id="WgI-88-xvv"/>
+                <constraint firstItem="cSm-zJ-7MJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="ZQT-7E-RqI"/>
+                <constraint firstItem="cSm-zJ-7MJ" firstAttribute="centerY" secondItem="rWn-zD-Rcp" secondAttribute="centerY" id="dhB-PL-XcH"/>
+                <constraint firstItem="iqR-A5-BzM" firstAttribute="centerY" secondItem="R2M-ld-vQu" secondAttribute="centerY" id="ewO-F6-bSl"/>
+                <constraint firstItem="A0a-AW-879" firstAttribute="leading" secondItem="gsc-Wn-b3k" secondAttribute="trailing" constant="16" id="gLs-yR-Fix"/>
+                <constraint firstItem="iqR-A5-BzM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="mCc-qQ-9ci"/>
+                <constraint firstItem="gsc-Wn-b3k" firstAttribute="centerY" secondItem="A0a-AW-879" secondAttribute="centerY" id="ytn-x4-3by"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

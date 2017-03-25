@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YQRefreshViewController">
+            <connections>
+                <outlet property="tableView" destination="76n-XI-AC7" id="5Xn-8u-iU1"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="76n-XI-AC7">
+                    <rect key="frame" x="0.0" y="100" width="375" height="567"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t20-OF-vIU">
+                    <rect key="frame" x="171" y="30" width="32" height="30"/>
+                    <state key="normal" title="Stop"/>
+                    <connections>
+                        <action selector="stopAnimation:" destination="-1" eventType="touchUpInside" id="sB2-MO-UwK"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oyo-U6-49C">
+                    <rect key="frame" x="0.0" y="100" width="375" height="100"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="Bb3-uL-2Ar"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Oyo-U6-49C" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="39J-bP-r5f"/>
+                <constraint firstItem="76n-XI-AC7" firstAttribute="top" secondItem="t20-OF-vIU" secondAttribute="bottom" constant="40" id="ADC-Hy-zZ0"/>
+                <constraint firstItem="t20-OF-vIU" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Vxd-sR-hIj"/>
+                <constraint firstAttribute="bottom" secondItem="76n-XI-AC7" secondAttribute="bottom" id="cQF-9n-VbV"/>
+                <constraint firstItem="76n-XI-AC7" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="cVE-Ge-o5E"/>
+                <constraint firstItem="76n-XI-AC7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="jjg-Hi-ues"/>
+                <constraint firstAttribute="trailing" secondItem="76n-XI-AC7" secondAttribute="trailing" id="kNz-08-P1b"/>
+                <constraint firstAttribute="trailing" secondItem="Oyo-U6-49C" secondAttribute="trailing" id="qep-z6-ugf"/>
+                <constraint firstItem="Oyo-U6-49C" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="wpN-IZ-XJd"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

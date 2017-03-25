@@ -1,0 +1,1152 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2311C589A3B57703197F8B40 /* libPods-YQUIKit_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA3CE63D0E2AC2473013E17 /* libPods-YQUIKit_Example.a */; };
+		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
+		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
+		6003F59E195388D20070C39A /* YQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* YQAppDelegate.m */; };
+		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
+		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
+		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
+		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		801C9FFE1E5A91B200BD16E8 /* YQColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FC8AE21E53F55900FC4A50 /* YQColorViewController.m */; };
+		801C9FFF1E5A923200BD16E8 /* YQCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FC8ADA1E53F55900FC4A50 /* YQCellViewController.m */; };
+		801CA0001E5A926800BD16E8 /* YQRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8042D15F1E568C4300AC78A9 /* YQRefreshViewController.m */; };
+		801CA0011E5A927200BD16E8 /* YQRefreshViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8042D1601E568C4300AC78A9 /* YQRefreshViewController.xib */; };
+		801CA0021E5A938400BD16E8 /* YQLabelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF2593FA1E56A2F400CF1842 /* YQLabelViewController.xib */; };
+		801CA0031E5A951700BD16E8 /* YQLabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF2594091E56A6EF00CF1842 /* YQLabelCell.xib */; };
+		802336361E51C79E00DAF026 /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 802336351E51C79E00DAF026 /* Tests.m */; };
+		803620C71E5D2B3B0056826E /* YQBlueNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 803620BC1E5D2B3B0056826E /* YQBlueNavigationViewController.m */; };
+		803620C81E5D2B3B0056826E /* YQBlueNavigationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 803620BD1E5D2B3B0056826E /* YQBlueNavigationViewController.xib */; };
+		803620C91E5D2B3B0056826E /* YQHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 803620BF1E5D2B3B0056826E /* YQHomePageViewController.m */; };
+		803620CA1E5D2B3B0056826E /* YQHomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 803620C01E5D2B3B0056826E /* YQHomePageViewController.xib */; };
+		803620CB1E5D2B3B0056826E /* YQLoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 803620C21E5D2B3B0056826E /* YQLoadingViewController.m */; };
+		803620CC1E5D2B3B0056826E /* YQLoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 803620C31E5D2B3B0056826E /* YQLoadingViewController.xib */; };
+		803620CD1E5D2B3B0056826E /* YQWhiteNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 803620C51E5D2B3B0056826E /* YQWhiteNavigationViewController.m */; };
+		803620CE1E5D2B3B0056826E /* YQWhiteNavigationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 803620C61E5D2B3B0056826E /* YQWhiteNavigationViewController.xib */; };
+		803620D31E5D2D630056826E /* YQPadHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 803620D11E5D2D630056826E /* YQPadHomePageViewController.m */; };
+		803620D41E5D2D630056826E /* YQPadHomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 803620D21E5D2D630056826E /* YQPadHomePageViewController.xib */; };
+		803620D81E5D3BF10056826E /* YQPadHomePageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 803620D61E5D3BF10056826E /* YQPadHomePageCollectionViewCell.m */; };
+		803620D91E5D3BF10056826E /* YQPadHomePageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 803620D71E5D3BF10056826E /* YQPadHomePageCollectionViewCell.xib */; };
+		804488DB1E67EF850036413A /* YQTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 804488D91E67EF850036413A /* YQTextFieldViewController.m */; };
+		804488DC1E67EF850036413A /* YQTextFieldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 804488DA1E67EF850036413A /* YQTextFieldViewController.xib */; };
+		8058ED451E65888D000ADDCC /* YQCheckBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8058ED431E65888D000ADDCC /* YQCheckBoxViewController.m */; };
+		8058ED461E65888D000ADDCC /* YQCheckBoxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8058ED441E65888D000ADDCC /* YQCheckBoxViewController.xib */; };
+		806362341E6D2FA500B45A61 /* YQCarrierCellContentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 806362331E6D2FA500B45A61 /* YQCarrierCellContentManager.m */; };
+		806BDC841E643668007B4025 /* YQRaiseButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 806BDC821E643668007B4025 /* YQRaiseButtonCell.m */; };
+		806BDC851E643668007B4025 /* YQRaiseButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 806BDC831E643668007B4025 /* YQRaiseButtonCell.xib */; };
+		80EA36F91E79265000E4CFDE /* YQKeyboardAssistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EA36F71E79265000E4CFDE /* YQKeyboardAssistViewController.m */; };
+		80EA36FA1E79265000E4CFDE /* YQKeyboardAssistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80EA36F81E79265000E4CFDE /* YQKeyboardAssistViewController.xib */; };
+		80EED8951E70F55A00B58295 /* YQNavigationBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EED8931E70F55A00B58295 /* YQNavigationBarViewController.m */; };
+		80EED8961E70F55A00B58295 /* YQNavigationBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80EED8941E70F55A00B58295 /* YQNavigationBarViewController.xib */; };
+		80EED89A1E70F58E00B58295 /* NavigationBarTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EED8981E70F58E00B58295 /* NavigationBarTableViewCell.m */; };
+		80EED89B1E70F58E00B58295 /* NavigationBarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80EED8991E70F58E00B58295 /* NavigationBarTableViewCell.xib */; };
+		80EED8A01E71211300B58295 /* YQConstantParameterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EED89E1E71211300B58295 /* YQConstantParameterViewController.m */; };
+		80EED8A11E71211300B58295 /* YQConstantParameterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80EED89F1E71211300B58295 /* YQConstantParameterViewController.xib */; };
+		80EED8A51E71216800B58295 /* ConstantParameterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EED8A31E71216800B58295 /* ConstantParameterTableViewCell.m */; };
+		80EED8A61E71216800B58295 /* ConstantParameterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80EED8A41E71216800B58295 /* ConstantParameterTableViewCell.xib */; };
+		80FC8B081E53F55900FC4A50 /* CustomHightLightButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FC8ABE1E53F55900FC4A50 /* CustomHightLightButton.m */; };
+		80FC8B0B1E53F55900FC4A50 /* LeftSideTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FC8AC51E53F55900FC4A50 /* LeftSideTableViewCell.m */; };
+		80FC8B0C1E53F55900FC4A50 /* LeftSideTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80FC8AC61E53F55900FC4A50 /* LeftSideTableViewCell.xib */; };
+		80FC8B0D1E53F55900FC4A50 /* TrackingResultCarrierCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FC8AC91E53F55900FC4A50 /* TrackingResultCarrierCell.m */; };
+		80FC8B0E1E53F55900FC4A50 /* TrackingResultCarrierCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80FC8ACA1E53F55900FC4A50 /* TrackingResultCarrierCell.xib */; };
+		80FC8B0F1E53F55900FC4A50 /* TrackingResultSelectCarrierCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FC8ACE1E53F55900FC4A50 /* TrackingResultSelectCarrierCell.m */; };
+		80FC8B101E53F55900FC4A50 /* TrackingResultSelectCarrierCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80FC8ACF1E53F55900FC4A50 /* TrackingResultSelectCarrierCell.xib */; };
+		80FC8B111E53F55900FC4A50 /* TrackingResultViewUIParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FC8AD11E53F55900FC4A50 /* TrackingResultViewUIParameter.m */; };
+		80FC8B121E53F55900FC4A50 /* TrackMain_HistoryListEditTabelViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FC8AD41E53F55900FC4A50 /* TrackMain_HistoryListEditTabelViewCell.m */; };
+		80FC8B131E53F55900FC4A50 /* TrackMain_HistoryListEditTabelViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80FC8AD51E53F55900FC4A50 /* TrackMain_HistoryListEditTabelViewCell.xib */; };
+		80FC8B141E53F55900FC4A50 /* UITabelViewSeparatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FC8AD81E53F55900FC4A50 /* UITabelViewSeparatorView.m */; };
+		80FC8B161E53F55900FC4A50 /* YQCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80FC8ADB1E53F55900FC4A50 /* YQCellViewController.xib */; };
+		80FC8B181E53F55900FC4A50 /* YQColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FC8AE01E53F55900FC4A50 /* YQColorView.m */; };
+		80FC8B1A1E53F55900FC4A50 /* YQColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80FC8AE31E53F55900FC4A50 /* YQColorViewController.xib */; };
+		80FC8B201E53F55900FC4A50 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FC8AF01E53F55900FC4A50 /* MainTableViewController.m */; };
+		80FC8B281E53F55900FC4A50 /* YQPopMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FC8B031E53F55900FC4A50 /* YQPopMenuViewController.m */; };
+		80FC8B291E53F55900FC4A50 /* YQPopMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80FC8B041E53F55900FC4A50 /* YQPopMenuViewController.xib */; };
+		80FC8B2A1E53F55900FC4A50 /* 17icon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80FC8B061E53F55900FC4A50 /* 17icon.ttf */; };
+		80FC8B2B1E53F55900FC4A50 /* carrier.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80FC8B071E53F55900FC4A50 /* carrier.ttf */; };
+		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		BC47546314AC733DE01BFAB7 /* libPods-YQUIKit_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB29CDCB6EEC8040B2B6472 /* libPods-YQUIKit_Tests.a */; };
+		FF2593FB1E56A2F400CF1842 /* YQLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2593F91E56A2F400CF1842 /* YQLabelViewController.m */; };
+		FF25940A1E56A6EF00CF1842 /* YQLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2594081E56A6EF00CF1842 /* YQLabelCell.m */; };
+		FF6CE8BA1E56D65000A68FC5 /* YQButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6CE8B81E56D65000A68FC5 /* YQButtonViewController.m */; };
+		FF6CE8BB1E56D65000A68FC5 /* YQButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF6CE8B91E56D65000A68FC5 /* YQButtonViewController.xib */; };
+		FF6CE8C21E56D68800A68FC5 /* YQButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6CE8C01E56D68800A68FC5 /* YQButtonCell.m */; };
+		FF6CE8C31E56D68800A68FC5 /* YQButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF6CE8C11E56D68800A68FC5 /* YQButtonCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteInfo = YQUIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F02313B25E1AA6C92E1DD36 /* Pods-YQUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQUIKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YQUIKit_Example/Pods-YQUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		439B27BDE384408896ADAABB /* YQUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YQUIKit.podspec; path = ../YQUIKit.podspec; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* YQUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6003F595195388D20070C39A /* YQUIKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YQUIKit-Info.plist"; sourceTree = "<group>"; };
+		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* YQUIKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YQUIKit-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* YQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* YQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQAppDelegate.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* YQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* YQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQViewController.m; sourceTree = "<group>"; };
+		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6003F5AE195388D20070C39A /* YQUIKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQUIKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		802336351E51C79E00DAF026 /* Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		803620BB1E5D2B3B0056826E /* YQBlueNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQBlueNavigationViewController.h; sourceTree = "<group>"; };
+		803620BC1E5D2B3B0056826E /* YQBlueNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQBlueNavigationViewController.m; sourceTree = "<group>"; };
+		803620BD1E5D2B3B0056826E /* YQBlueNavigationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YQBlueNavigationViewController.xib; sourceTree = "<group>"; };
+		803620BE1E5D2B3B0056826E /* YQHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQHomePageViewController.h; sourceTree = "<group>"; };
+		803620BF1E5D2B3B0056826E /* YQHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQHomePageViewController.m; sourceTree = "<group>"; };
+		803620C01E5D2B3B0056826E /* YQHomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YQHomePageViewController.xib; sourceTree = "<group>"; };
+		803620C11E5D2B3B0056826E /* YQLoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQLoadingViewController.h; sourceTree = "<group>"; };
+		803620C21E5D2B3B0056826E /* YQLoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQLoadingViewController.m; sourceTree = "<group>"; };
+		803620C31E5D2B3B0056826E /* YQLoadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YQLoadingViewController.xib; sourceTree = "<group>"; };
+		803620C41E5D2B3B0056826E /* YQWhiteNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQWhiteNavigationViewController.h; sourceTree = "<group>"; };
+		803620C51E5D2B3B0056826E /* YQWhiteNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQWhiteNavigationViewController.m; sourceTree = "<group>"; };
+		803620C61E5D2B3B0056826E /* YQWhiteNavigationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YQWhiteNavigationViewController.xib; sourceTree = "<group>"; };
+		803620D01E5D2D630056826E /* YQPadHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQPadHomePageViewController.h; sourceTree = "<group>"; };
+		803620D11E5D2D630056826E /* YQPadHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQPadHomePageViewController.m; sourceTree = "<group>"; };
+		803620D21E5D2D630056826E /* YQPadHomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YQPadHomePageViewController.xib; sourceTree = "<group>"; };
+		803620D51E5D3BF10056826E /* YQPadHomePageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQPadHomePageCollectionViewCell.h; sourceTree = "<group>"; };
+		803620D61E5D3BF10056826E /* YQPadHomePageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQPadHomePageCollectionViewCell.m; sourceTree = "<group>"; };
+		803620D71E5D3BF10056826E /* YQPadHomePageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YQPadHomePageCollectionViewCell.xib; sourceTree = "<group>"; };
+		8042D15E1E568C4300AC78A9 /* YQRefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQRefreshViewController.h; sourceTree = "<group>"; };
+		8042D15F1E568C4300AC78A9 /* YQRefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQRefreshViewController.m; sourceTree = "<group>"; };
+		8042D1601E568C4300AC78A9 /* YQRefreshViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YQRefreshViewController.xib; sourceTree = "<group>"; };
+		804488D81E67EF850036413A /* YQTextFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQTextFieldViewController.h; sourceTree = "<group>"; };
+		804488D91E67EF850036413A /* YQTextFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQTextFieldViewController.m; sourceTree = "<group>"; };
+		804488DA1E67EF850036413A /* YQTextFieldViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YQTextFieldViewController.xib; sourceTree = "<group>"; };
+		8058ED421E65888D000ADDCC /* YQCheckBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQCheckBoxViewController.h; sourceTree = "<group>"; };
+		8058ED431E65888D000ADDCC /* YQCheckBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQCheckBoxViewController.m; sourceTree = "<group>"; };
+		8058ED441E65888D000ADDCC /* YQCheckBoxViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YQCheckBoxViewController.xib; sourceTree = "<group>"; };
+		806362321E6D2FA500B45A61 /* YQCarrierCellContentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQCarrierCellContentManager.h; sourceTree = "<group>"; };
+		806362331E6D2FA500B45A61 /* YQCarrierCellContentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQCarrierCellContentManager.m; sourceTree = "<group>"; };
+		806BDC811E643668007B4025 /* YQRaiseButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQRaiseButtonCell.h; sourceTree = "<group>"; };
+		806BDC821E643668007B4025 /* YQRaiseButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQRaiseButtonCell.m; sourceTree = "<group>"; };
+		806BDC831E643668007B4025 /* YQRaiseButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YQRaiseButtonCell.xib; sourceTree = "<group>"; };
+		80EA36F61E79265000E4CFDE /* YQKeyboardAssistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQKeyboardAssistViewController.h; sourceTree = "<group>"; };
+		80EA36F71E79265000E4CFDE /* YQKeyboardAssistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQKeyboardAssistViewController.m; sourceTree = "<group>"; };
+		80EA36F81E79265000E4CFDE /* YQKeyboardAssistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YQKeyboardAssistViewController.xib; sourceTree = "<group>"; };
+		80EED8921E70F55A00B58295 /* YQNavigationBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQNavigationBarViewController.h; sourceTree = "<group>"; };
+		80EED8931E70F55A00B58295 /* YQNavigationBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQNavigationBarViewController.m; sourceTree = "<group>"; };
+		80EED8941E70F55A00B58295 /* YQNavigationBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YQNavigationBarViewController.xib; sourceTree = "<group>"; };
+		80EED8971E70F58E00B58295 /* NavigationBarTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarTableViewCell.h; sourceTree = "<group>"; };
+		80EED8981E70F58E00B58295 /* NavigationBarTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBarTableViewCell.m; sourceTree = "<group>"; };
+		80EED8991E70F58E00B58295 /* NavigationBarTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationBarTableViewCell.xib; sourceTree = "<group>"; };
+		80EED89D1E71211300B58295 /* YQConstantParameterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQConstantParameterViewController.h; sourceTree = "<group>"; };
+		80EED89E1E71211300B58295 /* YQConstantParameterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQConstantParameterViewController.m; sourceTree = "<group>"; };
+		80EED89F1E71211300B58295 /* YQConstantParameterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YQConstantParameterViewController.xib; sourceTree = "<group>"; };
+		80EED8A21E71216800B58295 /* ConstantParameterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstantParameterTableViewCell.h; sourceTree = "<group>"; };
+		80EED8A31E71216800B58295 /* ConstantParameterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstantParameterTableViewCell.m; sourceTree = "<group>"; };
+		80EED8A41E71216800B58295 /* ConstantParameterTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConstantParameterTableViewCell.xib; sourceTree = "<group>"; };
+		80FC8ABD1E53F55900FC4A50 /* CustomHightLightButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomHightLightButton.h; sourceTree = "<group>"; };
+		80FC8ABE1E53F55900FC4A50 /* CustomHightLightButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomHightLightButton.m; sourceTree = "<group>"; };
+		80FC8AC41E53F55900FC4A50 /* LeftSideTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSideTableViewCell.h; sourceTree = "<group>"; };
+		80FC8AC51E53F55900FC4A50 /* LeftSideTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSideTableViewCell.m; sourceTree = "<group>"; };
+		80FC8AC61E53F55900FC4A50 /* LeftSideTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftSideTableViewCell.xib; sourceTree = "<group>"; };
+		80FC8AC81E53F55900FC4A50 /* TrackingResultCarrierCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackingResultCarrierCell.h; sourceTree = "<group>"; };
+		80FC8AC91E53F55900FC4A50 /* TrackingResultCarrierCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackingResultCarrierCell.m; sourceTree = "<group>"; };
+		80FC8ACA1E53F55900FC4A50 /* TrackingResultCarrierCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrackingResultCarrierCell.xib; sourceTree = "<group>"; };
+		80FC8ACB1E53F55900FC4A50 /* TrackingResultCarrierCellDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackingResultCarrierCellDelegate.h; sourceTree = "<group>"; };
+		80FC8ACD1E53F55900FC4A50 /* TrackingResultSelectCarrierCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackingResultSelectCarrierCell.h; sourceTree = "<group>"; };
+		80FC8ACE1E53F55900FC4A50 /* TrackingResultSelectCarrierCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackingResultSelectCarrierCell.m; sourceTree = "<group>"; };
+		80FC8ACF1E53F55900FC4A50 /* TrackingResultSelectCarrierCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrackingResultSelectCarrierCell.xib; sourceTree = "<group>"; };
+		80FC8AD01E53F55900FC4A50 /* TrackingResultViewUIParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackingResultViewUIParameter.h; sourceTree = "<group>"; };
+		80FC8AD11E53F55900FC4A50 /* TrackingResultViewUIParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackingResultViewUIParameter.m; sourceTree = "<group>"; };
+		80FC8AD31E53F55900FC4A50 /* TrackMain_HistoryListEditTabelViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackMain_HistoryListEditTabelViewCell.h; sourceTree = "<group>"; };
+		80FC8AD41E53F55900FC4A50 /* TrackMain_HistoryListEditTabelViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackMain_HistoryListEditTabelViewCell.m; sourceTree = "<group>"; };
+		80FC8AD51E53F55900FC4A50 /* TrackMain_HistoryListEditTabelViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrackMain_HistoryListEditTabelViewCell.xib; sourceTree = "<group>"; };
+		80FC8AD71E53F55900FC4A50 /* UITabelViewSeparatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITabelViewSeparatorView.h; sourceTree = "<group>"; };
+		80FC8AD81E53F55900FC4A50 /* UITabelViewSeparatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITabelViewSeparatorView.m; sourceTree = "<group>"; };
+		80FC8AD91E53F55900FC4A50 /* YQCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQCellViewController.h; sourceTree = "<group>"; };
+		80FC8ADA1E53F55900FC4A50 /* YQCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQCellViewController.m; sourceTree = "<group>"; };
+		80FC8ADB1E53F55900FC4A50 /* YQCellViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YQCellViewController.xib; sourceTree = "<group>"; };
+		80FC8ADF1E53F55900FC4A50 /* YQColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQColorView.h; sourceTree = "<group>"; };
+		80FC8AE01E53F55900FC4A50 /* YQColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQColorView.m; sourceTree = "<group>"; };
+		80FC8AE11E53F55900FC4A50 /* YQColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQColorViewController.h; sourceTree = "<group>"; };
+		80FC8AE21E53F55900FC4A50 /* YQColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQColorViewController.m; sourceTree = "<group>"; };
+		80FC8AE31E53F55900FC4A50 /* YQColorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YQColorViewController.xib; sourceTree = "<group>"; };
+		80FC8AEF1E53F55900FC4A50 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		80FC8AF01E53F55900FC4A50 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		80FC8B021E53F55900FC4A50 /* YQPopMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQPopMenuViewController.h; sourceTree = "<group>"; };
+		80FC8B031E53F55900FC4A50 /* YQPopMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQPopMenuViewController.m; sourceTree = "<group>"; };
+		80FC8B041E53F55900FC4A50 /* YQPopMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YQPopMenuViewController.xib; sourceTree = "<group>"; };
+		80FC8B061E53F55900FC4A50 /* 17icon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 17icon.ttf; sourceTree = "<group>"; };
+		80FC8B071E53F55900FC4A50 /* carrier.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = carrier.ttf; sourceTree = "<group>"; };
+		80FC8B351E54339C00FC4A50 /* UIColor+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Addition.h"; sourceTree = "<group>"; };
+		80FC8B361E54339C00FC4A50 /* UIColor+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addition.m"; sourceTree = "<group>"; };
+		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C8511DF51B3745C9679AC76 /* Pods-YQUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQUIKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YQUIKit_Tests/Pods-YQUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CAA3CE63D0E2AC2473013E17 /* libPods-YQUIKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YQUIKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2EA9B5F29A733564B2E8CC1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D5189E978DAFDCA7EC9FEFE0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DCB29CDCB6EEC8040B2B6472 /* libPods-YQUIKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YQUIKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6ECC6BAD41E052AE6D38A4B /* Pods-YQUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQUIKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YQUIKit_Example/Pods-YQUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FB3E619DD6F6508C8F5EA2C2 /* Pods-YQUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQUIKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YQUIKit_Tests/Pods-YQUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF2593F81E56A2F400CF1842 /* YQLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQLabelViewController.h; sourceTree = "<group>"; };
+		FF2593F91E56A2F400CF1842 /* YQLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQLabelViewController.m; sourceTree = "<group>"; };
+		FF2593FA1E56A2F400CF1842 /* YQLabelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YQLabelViewController.xib; sourceTree = "<group>"; };
+		FF2594071E56A6EF00CF1842 /* YQLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQLabelCell.h; sourceTree = "<group>"; };
+		FF2594081E56A6EF00CF1842 /* YQLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQLabelCell.m; sourceTree = "<group>"; };
+		FF2594091E56A6EF00CF1842 /* YQLabelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YQLabelCell.xib; sourceTree = "<group>"; };
+		FF6CE8B71E56D65000A68FC5 /* YQButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQButtonViewController.h; sourceTree = "<group>"; };
+		FF6CE8B81E56D65000A68FC5 /* YQButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQButtonViewController.m; sourceTree = "<group>"; };
+		FF6CE8B91E56D65000A68FC5 /* YQButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YQButtonViewController.xib; sourceTree = "<group>"; };
+		FF6CE8BF1E56D68800A68FC5 /* YQButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQButtonCell.h; sourceTree = "<group>"; };
+		FF6CE8C01E56D68800A68FC5 /* YQButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQButtonCell.m; sourceTree = "<group>"; };
+		FF6CE8C11E56D68800A68FC5 /* YQButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YQButtonCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6003F587195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				2311C589A3B57703197F8B40 /* libPods-YQUIKit_Example.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AB195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
+				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				BC47546314AC733DE01BFAB7 /* libPods-YQUIKit_Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6003F581195388D10070C39A = {
+			isa = PBXGroup;
+			children = (
+				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				6003F593195388D20070C39A /* Example for YQUIKit */,
+				6003F5B5195388D20070C39A /* Tests */,
+				6003F58C195388D20070C39A /* Frameworks */,
+				6003F58B195388D20070C39A /* Products */,
+				D9764013DA29440BA06DA3C8 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6003F58B195388D20070C39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58A195388D20070C39A /* YQUIKit.app */,
+				6003F5AE195388D20070C39A /* YQUIKit_Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6003F58C195388D20070C39A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58D195388D20070C39A /* Foundation.framework */,
+				6003F58F195388D20070C39A /* CoreGraphics.framework */,
+				6003F591195388D20070C39A /* UIKit.framework */,
+				6003F5AF195388D20070C39A /* XCTest.framework */,
+				CAA3CE63D0E2AC2473013E17 /* libPods-YQUIKit_Example.a */,
+				DCB29CDCB6EEC8040B2B6472 /* libPods-YQUIKit_Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6003F593195388D20070C39A /* Example for YQUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				80EA36F51E79264400E4CFDE /* KeyboardAssist */,
+				80EED89C1E7120E400B58295 /* ConstantParameter */,
+				80EED8891E70F0FF00B58295 /* NavigationBar */,
+				804488D71E67EE310036413A /* TextField */,
+				8058ED3C1E6585FC000ADDCC /* CheckBox */,
+				803620CF1E5D2D2A0056826E /* Ipad */,
+				803620BA1E5D2B3A0056826E /* Iphone */,
+				8035CFB31E55A78600FD67FD /* Refresh */,
+				80FC8ADC1E53F55900FC4A50 /* Color */,
+				FF2593ED1E56A12F00CF1842 /* Label */,
+				80FC8B321E54339C00FC4A50 /* Common */,
+				80FC8ABC1E53F55900FC4A50 /* Button */,
+				80FC8AC21E53F55900FC4A50 /* Cell */,
+				80FC8AEE1E53F55900FC4A50 /* Main */,
+				80FC8AF11E53F55900FC4A50 /* PopMenu */,
+				80FC8B051E53F55900FC4A50 /* Resource */,
+				6003F59C195388D20070C39A /* YQAppDelegate.h */,
+				6003F59D195388D20070C39A /* YQAppDelegate.m */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				6003F5A5195388D20070C39A /* YQViewController.h */,
+				6003F5A6195388D20070C39A /* YQViewController.m */,
+				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+				6003F594195388D20070C39A /* Supporting Files */,
+			);
+			name = "Example for YQUIKit";
+			path = YQUIKit;
+			sourceTree = "<group>";
+		};
+		6003F594195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F595195388D20070C39A /* YQUIKit-Info.plist */,
+				6003F596195388D20070C39A /* InfoPlist.strings */,
+				6003F599195388D20070C39A /* main.m */,
+				6003F59B195388D20070C39A /* YQUIKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6003F5B5195388D20070C39A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				802336351E51C79E00DAF026 /* Tests.m */,
+				6003F5B6195388D20070C39A /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6003F5B6195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5B7195388D20070C39A /* Tests-Info.plist */,
+				6003F5B8195388D20070C39A /* InfoPlist.strings */,
+				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				439B27BDE384408896ADAABB /* YQUIKit.podspec */,
+				D5189E978DAFDCA7EC9FEFE0 /* README.md */,
+				D2EA9B5F29A733564B2E8CC1 /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		8035CFB31E55A78600FD67FD /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				8042D15E1E568C4300AC78A9 /* YQRefreshViewController.h */,
+				8042D15F1E568C4300AC78A9 /* YQRefreshViewController.m */,
+				8042D1601E568C4300AC78A9 /* YQRefreshViewController.xib */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		803620BA1E5D2B3A0056826E /* Iphone */ = {
+			isa = PBXGroup;
+			children = (
+				803620BB1E5D2B3B0056826E /* YQBlueNavigationViewController.h */,
+				803620BC1E5D2B3B0056826E /* YQBlueNavigationViewController.m */,
+				803620BD1E5D2B3B0056826E /* YQBlueNavigationViewController.xib */,
+				803620BE1E5D2B3B0056826E /* YQHomePageViewController.h */,
+				803620BF1E5D2B3B0056826E /* YQHomePageViewController.m */,
+				803620C01E5D2B3B0056826E /* YQHomePageViewController.xib */,
+				803620C11E5D2B3B0056826E /* YQLoadingViewController.h */,
+				803620C21E5D2B3B0056826E /* YQLoadingViewController.m */,
+				803620C31E5D2B3B0056826E /* YQLoadingViewController.xib */,
+				803620C41E5D2B3B0056826E /* YQWhiteNavigationViewController.h */,
+				803620C51E5D2B3B0056826E /* YQWhiteNavigationViewController.m */,
+				803620C61E5D2B3B0056826E /* YQWhiteNavigationViewController.xib */,
+			);
+			path = Iphone;
+			sourceTree = "<group>";
+		};
+		803620CF1E5D2D2A0056826E /* Ipad */ = {
+			isa = PBXGroup;
+			children = (
+				803620D01E5D2D630056826E /* YQPadHomePageViewController.h */,
+				803620D11E5D2D630056826E /* YQPadHomePageViewController.m */,
+				803620D21E5D2D630056826E /* YQPadHomePageViewController.xib */,
+				803620D51E5D3BF10056826E /* YQPadHomePageCollectionViewCell.h */,
+				803620D61E5D3BF10056826E /* YQPadHomePageCollectionViewCell.m */,
+				803620D71E5D3BF10056826E /* YQPadHomePageCollectionViewCell.xib */,
+			);
+			path = Ipad;
+			sourceTree = "<group>";
+		};
+		804488D71E67EE310036413A /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				804488D81E67EF850036413A /* YQTextFieldViewController.h */,
+				804488D91E67EF850036413A /* YQTextFieldViewController.m */,
+				804488DA1E67EF850036413A /* YQTextFieldViewController.xib */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		8058ED3C1E6585FC000ADDCC /* CheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				8058ED421E65888D000ADDCC /* YQCheckBoxViewController.h */,
+				8058ED431E65888D000ADDCC /* YQCheckBoxViewController.m */,
+				8058ED441E65888D000ADDCC /* YQCheckBoxViewController.xib */,
+			);
+			path = CheckBox;
+			sourceTree = "<group>";
+		};
+		80EA36F51E79264400E4CFDE /* KeyboardAssist */ = {
+			isa = PBXGroup;
+			children = (
+				80EA36F61E79265000E4CFDE /* YQKeyboardAssistViewController.h */,
+				80EA36F71E79265000E4CFDE /* YQKeyboardAssistViewController.m */,
+				80EA36F81E79265000E4CFDE /* YQKeyboardAssistViewController.xib */,
+			);
+			path = KeyboardAssist;
+			sourceTree = "<group>";
+		};
+		80EED8891E70F0FF00B58295 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				80EED8921E70F55A00B58295 /* YQNavigationBarViewController.h */,
+				80EED8931E70F55A00B58295 /* YQNavigationBarViewController.m */,
+				80EED8941E70F55A00B58295 /* YQNavigationBarViewController.xib */,
+				80EED8971E70F58E00B58295 /* NavigationBarTableViewCell.h */,
+				80EED8981E70F58E00B58295 /* NavigationBarTableViewCell.m */,
+				80EED8991E70F58E00B58295 /* NavigationBarTableViewCell.xib */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		80EED89C1E7120E400B58295 /* ConstantParameter */ = {
+			isa = PBXGroup;
+			children = (
+				80EED89D1E71211300B58295 /* YQConstantParameterViewController.h */,
+				80EED89E1E71211300B58295 /* YQConstantParameterViewController.m */,
+				80EED89F1E71211300B58295 /* YQConstantParameterViewController.xib */,
+				80EED8A21E71216800B58295 /* ConstantParameterTableViewCell.h */,
+				80EED8A31E71216800B58295 /* ConstantParameterTableViewCell.m */,
+				80EED8A41E71216800B58295 /* ConstantParameterTableViewCell.xib */,
+			);
+			path = ConstantParameter;
+			sourceTree = "<group>";
+		};
+		80FC8ABC1E53F55900FC4A50 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				80FC8ABD1E53F55900FC4A50 /* CustomHightLightButton.h */,
+				80FC8ABE1E53F55900FC4A50 /* CustomHightLightButton.m */,
+				FF6CE8B71E56D65000A68FC5 /* YQButtonViewController.h */,
+				FF6CE8B81E56D65000A68FC5 /* YQButtonViewController.m */,
+				FF6CE8B91E56D65000A68FC5 /* YQButtonViewController.xib */,
+				FF6CE8BF1E56D68800A68FC5 /* YQButtonCell.h */,
+				FF6CE8C01E56D68800A68FC5 /* YQButtonCell.m */,
+				FF6CE8C11E56D68800A68FC5 /* YQButtonCell.xib */,
+				806BDC811E643668007B4025 /* YQRaiseButtonCell.h */,
+				806BDC821E643668007B4025 /* YQRaiseButtonCell.m */,
+				806BDC831E643668007B4025 /* YQRaiseButtonCell.xib */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		80FC8AC21E53F55900FC4A50 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				80FC8AC31E53F55900FC4A50 /* LeftSideTableViewCell */,
+				80FC8AC71E53F55900FC4A50 /* TrackingResultCarrierCell */,
+				80FC8ACC1E53F55900FC4A50 /* TrackingResultSelectCarrierCell */,
+				80FC8AD21E53F55900FC4A50 /* TrackMain_HistoryListTabelViewCell */,
+				80FC8AD61E53F55900FC4A50 /* UITabelViewSeparatorView */,
+				80FC8AD91E53F55900FC4A50 /* YQCellViewController.h */,
+				80FC8ADA1E53F55900FC4A50 /* YQCellViewController.m */,
+				80FC8ADB1E53F55900FC4A50 /* YQCellViewController.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		80FC8AC31E53F55900FC4A50 /* LeftSideTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				80FC8AC41E53F55900FC4A50 /* LeftSideTableViewCell.h */,
+				80FC8AC51E53F55900FC4A50 /* LeftSideTableViewCell.m */,
+				80FC8AC61E53F55900FC4A50 /* LeftSideTableViewCell.xib */,
+			);
+			path = LeftSideTableViewCell;
+			sourceTree = "<group>";
+		};
+		80FC8AC71E53F55900FC4A50 /* TrackingResultCarrierCell */ = {
+			isa = PBXGroup;
+			children = (
+				80FC8AC81E53F55900FC4A50 /* TrackingResultCarrierCell.h */,
+				80FC8AC91E53F55900FC4A50 /* TrackingResultCarrierCell.m */,
+				80FC8ACA1E53F55900FC4A50 /* TrackingResultCarrierCell.xib */,
+				80FC8ACB1E53F55900FC4A50 /* TrackingResultCarrierCellDelegate.h */,
+				806362321E6D2FA500B45A61 /* YQCarrierCellContentManager.h */,
+				806362331E6D2FA500B45A61 /* YQCarrierCellContentManager.m */,
+			);
+			path = TrackingResultCarrierCell;
+			sourceTree = "<group>";
+		};
+		80FC8ACC1E53F55900FC4A50 /* TrackingResultSelectCarrierCell */ = {
+			isa = PBXGroup;
+			children = (
+				80FC8ACD1E53F55900FC4A50 /* TrackingResultSelectCarrierCell.h */,
+				80FC8ACE1E53F55900FC4A50 /* TrackingResultSelectCarrierCell.m */,
+				80FC8ACF1E53F55900FC4A50 /* TrackingResultSelectCarrierCell.xib */,
+				80FC8AD01E53F55900FC4A50 /* TrackingResultViewUIParameter.h */,
+				80FC8AD11E53F55900FC4A50 /* TrackingResultViewUIParameter.m */,
+			);
+			path = TrackingResultSelectCarrierCell;
+			sourceTree = "<group>";
+		};
+		80FC8AD21E53F55900FC4A50 /* TrackMain_HistoryListTabelViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				80FC8AD31E53F55900FC4A50 /* TrackMain_HistoryListEditTabelViewCell.h */,
+				80FC8AD41E53F55900FC4A50 /* TrackMain_HistoryListEditTabelViewCell.m */,
+				80FC8AD51E53F55900FC4A50 /* TrackMain_HistoryListEditTabelViewCell.xib */,
+			);
+			path = TrackMain_HistoryListTabelViewCell;
+			sourceTree = "<group>";
+		};
+		80FC8AD61E53F55900FC4A50 /* UITabelViewSeparatorView */ = {
+			isa = PBXGroup;
+			children = (
+				80FC8AD71E53F55900FC4A50 /* UITabelViewSeparatorView.h */,
+				80FC8AD81E53F55900FC4A50 /* UITabelViewSeparatorView.m */,
+			);
+			path = UITabelViewSeparatorView;
+			sourceTree = "<group>";
+		};
+		80FC8ADC1E53F55900FC4A50 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				80FC8ADF1E53F55900FC4A50 /* YQColorView.h */,
+				80FC8AE01E53F55900FC4A50 /* YQColorView.m */,
+				80FC8AE11E53F55900FC4A50 /* YQColorViewController.h */,
+				80FC8AE21E53F55900FC4A50 /* YQColorViewController.m */,
+				80FC8AE31E53F55900FC4A50 /* YQColorViewController.xib */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		80FC8AEE1E53F55900FC4A50 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				80FC8AEF1E53F55900FC4A50 /* MainTableViewController.h */,
+				80FC8AF01E53F55900FC4A50 /* MainTableViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		80FC8AF11E53F55900FC4A50 /* PopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				80FC8B021E53F55900FC4A50 /* YQPopMenuViewController.h */,
+				80FC8B031E53F55900FC4A50 /* YQPopMenuViewController.m */,
+				80FC8B041E53F55900FC4A50 /* YQPopMenuViewController.xib */,
+			);
+			path = PopMenu;
+			sourceTree = "<group>";
+		};
+		80FC8B051E53F55900FC4A50 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				80FC8B061E53F55900FC4A50 /* 17icon.ttf */,
+				80FC8B071E53F55900FC4A50 /* carrier.ttf */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		80FC8B321E54339C00FC4A50 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				80FC8B351E54339C00FC4A50 /* UIColor+Addition.h */,
+				80FC8B361E54339C00FC4A50 /* UIColor+Addition.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D9764013DA29440BA06DA3C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6ECC6BAD41E052AE6D38A4B /* Pods-YQUIKit_Example.debug.xcconfig */,
+				1F02313B25E1AA6C92E1DD36 /* Pods-YQUIKit_Example.release.xcconfig */,
+				FB3E619DD6F6508C8F5EA2C2 /* Pods-YQUIKit_Tests.debug.xcconfig */,
+				8C8511DF51B3745C9679AC76 /* Pods-YQUIKit_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF2593ED1E56A12F00CF1842 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				FF2593F81E56A2F400CF1842 /* YQLabelViewController.h */,
+				FF2593F91E56A2F400CF1842 /* YQLabelViewController.m */,
+				FF2593FA1E56A2F400CF1842 /* YQLabelViewController.xib */,
+				FF2594071E56A6EF00CF1842 /* YQLabelCell.h */,
+				FF2594081E56A6EF00CF1842 /* YQLabelCell.m */,
+				FF2594091E56A6EF00CF1842 /* YQLabelCell.xib */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6003F589195388D20070C39A /* YQUIKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "YQUIKit_Example" */;
+			buildPhases = (
+				70121EF13E61BD0A15767BB9 /* [CP] Check Pods Manifest.lock */,
+				6003F586195388D20070C39A /* Sources */,
+				6003F587195388D20070C39A /* Frameworks */,
+				6003F588195388D20070C39A /* Resources */,
+				1DAE72D824B7D6D93F7C9B65 /* [CP] Embed Pods Frameworks */,
+				31629C920088B7DC92ECEA89 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YQUIKit_Example;
+			productName = YQUIKit;
+			productReference = 6003F58A195388D20070C39A /* YQUIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6003F5AD195388D20070C39A /* YQUIKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "YQUIKit_Tests" */;
+			buildPhases = (
+				2413BA929538152F96560012 /* [CP] Check Pods Manifest.lock */,
+				6003F5AA195388D20070C39A /* Sources */,
+				6003F5AB195388D20070C39A /* Frameworks */,
+				6003F5AC195388D20070C39A /* Resources */,
+				274FDEABCF732214A880CB4E /* [CP] Embed Pods Frameworks */,
+				4E4027EE2AEE678A3A1B132E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6003F5B4195388D20070C39A /* PBXTargetDependency */,
+			);
+			name = YQUIKit_Tests;
+			productName = YQUIKitTests;
+			productReference = 6003F5AE195388D20070C39A /* YQUIKit_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6003F582195388D10070C39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YQ;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = hydrabi;
+				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 4ZFX22UBQA;
+						ProvisioningStyle = Automatic;
+					};
+					6003F5AD195388D20070C39A = {
+						LastSwiftMigration = 0820;
+						TestTargetID = 6003F589195388D20070C39A;
+					};
+				};
+			};
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "YQUIKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6003F581195388D10070C39A;
+			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6003F589195388D20070C39A /* YQUIKit_Example */,
+				6003F5AD195388D20070C39A /* YQUIKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6003F588195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801CA0031E5A951700BD16E8 /* YQLabelCell.xib in Resources */,
+				801CA0021E5A938400BD16E8 /* YQLabelViewController.xib in Resources */,
+				803620CC1E5D2B3B0056826E /* YQLoadingViewController.xib in Resources */,
+				801CA0011E5A927200BD16E8 /* YQRefreshViewController.xib in Resources */,
+				80EED89B1E70F58E00B58295 /* NavigationBarTableViewCell.xib in Resources */,
+				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				803620CE1E5D2B3B0056826E /* YQWhiteNavigationViewController.xib in Resources */,
+				80EED8A61E71216800B58295 /* ConstantParameterTableViewCell.xib in Resources */,
+				803620D91E5D3BF10056826E /* YQPadHomePageCollectionViewCell.xib in Resources */,
+				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				80FC8B1A1E53F55900FC4A50 /* YQColorViewController.xib in Resources */,
+				FF6CE8C31E56D68800A68FC5 /* YQButtonCell.xib in Resources */,
+				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				803620D41E5D2D630056826E /* YQPadHomePageViewController.xib in Resources */,
+				80FC8B161E53F55900FC4A50 /* YQCellViewController.xib in Resources */,
+				80FC8B291E53F55900FC4A50 /* YQPopMenuViewController.xib in Resources */,
+				FF6CE8BB1E56D65000A68FC5 /* YQButtonViewController.xib in Resources */,
+				80EED8A11E71211300B58295 /* YQConstantParameterViewController.xib in Resources */,
+				80FC8B2A1E53F55900FC4A50 /* 17icon.ttf in Resources */,
+				80EA36FA1E79265000E4CFDE /* YQKeyboardAssistViewController.xib in Resources */,
+				806BDC851E643668007B4025 /* YQRaiseButtonCell.xib in Resources */,
+				80FC8B0E1E53F55900FC4A50 /* TrackingResultCarrierCell.xib in Resources */,
+				80FC8B2B1E53F55900FC4A50 /* carrier.ttf in Resources */,
+				80EED8961E70F55A00B58295 /* YQNavigationBarViewController.xib in Resources */,
+				80FC8B131E53F55900FC4A50 /* TrackMain_HistoryListEditTabelViewCell.xib in Resources */,
+				803620CA1E5D2B3B0056826E /* YQHomePageViewController.xib in Resources */,
+				8058ED461E65888D000ADDCC /* YQCheckBoxViewController.xib in Resources */,
+				80FC8B101E53F55900FC4A50 /* TrackingResultSelectCarrierCell.xib in Resources */,
+				804488DC1E67EF850036413A /* YQTextFieldViewController.xib in Resources */,
+				803620C81E5D2B3B0056826E /* YQBlueNavigationViewController.xib in Resources */,
+				80FC8B0C1E53F55900FC4A50 /* LeftSideTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AC195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DAE72D824B7D6D93F7C9B65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YQUIKit_Example/Pods-YQUIKit_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2413BA929538152F96560012 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		274FDEABCF732214A880CB4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YQUIKit_Tests/Pods-YQUIKit_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31629C920088B7DC92ECEA89 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YQUIKit_Example/Pods-YQUIKit_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E4027EE2AEE678A3A1B132E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YQUIKit_Tests/Pods-YQUIKit_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70121EF13E61BD0A15767BB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6003F586195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801CA0001E5A926800BD16E8 /* YQRefreshViewController.m in Sources */,
+				801C9FFF1E5A923200BD16E8 /* YQCellViewController.m in Sources */,
+				803620D81E5D3BF10056826E /* YQPadHomePageCollectionViewCell.m in Sources */,
+				803620CD1E5D2B3B0056826E /* YQWhiteNavigationViewController.m in Sources */,
+				801C9FFE1E5A91B200BD16E8 /* YQColorViewController.m in Sources */,
+				8058ED451E65888D000ADDCC /* YQCheckBoxViewController.m in Sources */,
+				80EED8951E70F55A00B58295 /* YQNavigationBarViewController.m in Sources */,
+				803620C71E5D2B3B0056826E /* YQBlueNavigationViewController.m in Sources */,
+				803620D31E5D2D630056826E /* YQPadHomePageViewController.m in Sources */,
+				80EED8A01E71211300B58295 /* YQConstantParameterViewController.m in Sources */,
+				80FC8B0D1E53F55900FC4A50 /* TrackingResultCarrierCell.m in Sources */,
+				803620C91E5D2B3B0056826E /* YQHomePageViewController.m in Sources */,
+				80EED8A51E71216800B58295 /* ConstantParameterTableViewCell.m in Sources */,
+				80FC8B181E53F55900FC4A50 /* YQColorView.m in Sources */,
+				80FC8B121E53F55900FC4A50 /* TrackMain_HistoryListEditTabelViewCell.m in Sources */,
+				80FC8B0B1E53F55900FC4A50 /* LeftSideTableViewCell.m in Sources */,
+				80FC8B111E53F55900FC4A50 /* TrackingResultViewUIParameter.m in Sources */,
+				FF6CE8BA1E56D65000A68FC5 /* YQButtonViewController.m in Sources */,
+				6003F59E195388D20070C39A /* YQAppDelegate.m in Sources */,
+				80FC8B0F1E53F55900FC4A50 /* TrackingResultSelectCarrierCell.m in Sources */,
+				80FC8B281E53F55900FC4A50 /* YQPopMenuViewController.m in Sources */,
+				806362341E6D2FA500B45A61 /* YQCarrierCellContentManager.m in Sources */,
+				80FC8B141E53F55900FC4A50 /* UITabelViewSeparatorView.m in Sources */,
+				806BDC841E643668007B4025 /* YQRaiseButtonCell.m in Sources */,
+				80FC8B201E53F55900FC4A50 /* MainTableViewController.m in Sources */,
+				80EA36F91E79265000E4CFDE /* YQKeyboardAssistViewController.m in Sources */,
+				803620CB1E5D2B3B0056826E /* YQLoadingViewController.m in Sources */,
+				80FC8B081E53F55900FC4A50 /* CustomHightLightButton.m in Sources */,
+				FF25940A1E56A6EF00CF1842 /* YQLabelCell.m in Sources */,
+				FF2593FB1E56A2F400CF1842 /* YQLabelViewController.m in Sources */,
+				802336361E51C79E00DAF026 /* Tests.m in Sources */,
+				804488DB1E67EF850036413A /* YQTextFieldViewController.m in Sources */,
+				6003F59A195388D20070C39A /* main.m in Sources */,
+				FF6CE8C21E56D68800A68FC5 /* YQButtonCell.m in Sources */,
+				80EED89A1E70F58E00B58295 /* NavigationBarTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AA195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003F589195388D20070C39A /* YQUIKit_Example */;
+			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6003F596195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F597195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F5B9195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71719F9E1E33DC2100824A3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6003F5BD195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6003F5BE195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6003F5C0195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6ECC6BAD41E052AE6D38A4B /* Pods-YQUIKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4ZFX22UBQA;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YQUIKit/YQUIKit-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/include/libxml2",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleAnalytics\"",
+				);
+				INFOPLIST_FILE = "YQUIKit/YQUIKit-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleAnalytics/Libraries",
+				);
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = YQUIKit;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6003F5C1195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F02313B25E1AA6C92E1DD36 /* Pods-YQUIKit_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4ZFX22UBQA;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YQUIKit/YQUIKit-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/include/libxml2",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleAnalytics\"",
+				);
+				INFOPLIST_FILE = "YQUIKit/YQUIKit-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleAnalytics/Libraries",
+				);
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = YQUIKit;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6003F5C3195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB3E619DD6F6508C8F5EA2C2 /* Pods-YQUIKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"FBSnapshotTestCase\"",
+					"-framework",
+					"\"Kiwi\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQUIKit_Example.app/YQUIKit_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6003F5C4195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C8511DF51B3745C9679AC76 /* Pods-YQUIKit_Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"FBSnapshotTestCase\"",
+					"-framework",
+					"\"Kiwi\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQUIKit_Example.app/YQUIKit_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "YQUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5BD195388D20070C39A /* Debug */,
+				6003F5BE195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "YQUIKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C0195388D20070C39A /* Debug */,
+				6003F5C1195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "YQUIKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C3195388D20070C39A /* Debug */,
+				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6003F582195388D10070C39A /* Project object */;
+}

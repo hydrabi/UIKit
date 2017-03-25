@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="YQTrackListLoadingCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="360" height="122"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="360" height="122"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPo-oT-Nia">
+                        <rect key="frame" x="16" y="16" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="Q44-Pl-7Pi">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nuiDefinition" value="@Normal_Width_40"/>
+                                </userDefinedRuntimeAttributes>
+                            </constraint>
+                            <constraint firstAttribute="height" constant="40" id="s1i-hA-1J2">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nuiDefinition" value="@Normal_Height_40"/>
+                                </userDefinedRuntimeAttributes>
+                            </constraint>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n8f-h3-xxY">
+                        <rect key="frame" x="72" y="25" width="236" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="DDg-aV-Asa">
+                        <rect key="frame" x="324" y="26" width="20" height="20"/>
+                    </activityIndicatorView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="vPo-oT-Nia" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="BCo-d3-yBI"/>
+                <constraint firstItem="n8f-h3-xxY" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="72" id="IeQ-w0-Bi0"/>
+                <constraint firstItem="n8f-h3-xxY" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="25" id="Mgq-eE-jkc"/>
+                <constraint firstItem="vPo-oT-Nia" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="16" id="UQt-cu-iX3"/>
+                <constraint firstAttribute="trailing" secondItem="DDg-aV-Asa" secondAttribute="trailing" constant="16" id="XHs-UN-Xcg"/>
+                <constraint firstAttribute="trailing" secondItem="n8f-h3-xxY" secondAttribute="trailing" constant="52" id="f27-Yc-XL8"/>
+                <constraint firstItem="DDg-aV-Asa" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="26" id="izR-LJ-rHG"/>
+            </constraints>
+            <connections>
+                <outlet property="activityIndicator" destination="DDg-aV-Asa" id="E3Q-Bp-P4j"/>
+                <outlet property="logoLable" destination="vPo-oT-Nia" id="VmJ-Bk-Mb5"/>
+                <outlet property="nameLabel" destination="n8f-h3-xxY" id="sbj-Vi-rHN"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>

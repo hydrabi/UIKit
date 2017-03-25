@@ -1,0 +1,26 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    @import UIKit;
+    @import Foundation;
+#endif
+
+#ifdef __OBJC__
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+#import "Masonry.h"
+#import "CommonMarco.h"
+#import "NSString+CommonIconFont.h"
+#import "UIColor+Addition.h"
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#endif

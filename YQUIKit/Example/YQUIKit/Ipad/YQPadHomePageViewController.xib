@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YQPadHomePageViewController">
+            <connections>
+                <outlet property="collectionView" destination="IZB-7q-ra8" id="ZHZ-XW-ztr"/>
+                <outlet property="navigationView" destination="6mj-9M-BOd" id="ID2-7t-61t"/>
+                <outlet property="tabBar" destination="hGd-ny-DOd" id="feD-bG-mNl"/>
+                <outlet property="tabbarTopConstraint" destination="jWU-27-TDG" id="IV3-3Z-EPb"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6mj-9M-BOd" customClass="YQCustomNavigationView">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="64"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="PZF-Um-Taq"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hGd-ny-DOd" customClass="YQTarBar">
+                    <rect key="frame" x="0.0" y="64" width="768" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="fAp-Ra-OS9"/>
+                    </constraints>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="IZB-7q-ra8">
+                    <rect key="frame" x="0.0" y="108" width="768" height="916"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="eKl-Dc-R3S">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Y4-T8-Wkv" customClass="YQFloatButton">
+                    <rect key="frame" x="696" y="952" width="56" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="56" id="wMV-L6-Ajz"/>
+                        <constraint firstAttribute="height" constant="56" id="xaX-DU-lqw"/>
+                    </constraints>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="hGd-ny-DOd" secondAttribute="trailing" id="0uE-yr-ioL"/>
+                <constraint firstAttribute="trailing" secondItem="5Y4-T8-Wkv" secondAttribute="trailing" constant="16" id="4zb-aU-08Y"/>
+                <constraint firstAttribute="bottom" secondItem="IZB-7q-ra8" secondAttribute="bottom" id="7sx-nn-lGE"/>
+                <constraint firstItem="6mj-9M-BOd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="8Kx-tt-h7N"/>
+                <constraint firstAttribute="trailing" secondItem="IZB-7q-ra8" secondAttribute="trailing" id="G12-sw-Lix"/>
+                <constraint firstItem="IZB-7q-ra8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="gUt-7V-pXP"/>
+                <constraint firstItem="IZB-7q-ra8" firstAttribute="top" secondItem="hGd-ny-DOd" secondAttribute="bottom" id="grU-z6-qWP"/>
+                <constraint firstItem="hGd-ny-DOd" firstAttribute="top" secondItem="6mj-9M-BOd" secondAttribute="bottom" id="jWU-27-TDG"/>
+                <constraint firstAttribute="bottom" secondItem="5Y4-T8-Wkv" secondAttribute="bottom" constant="16" id="mMZ-mG-Jtf"/>
+                <constraint firstAttribute="trailing" secondItem="6mj-9M-BOd" secondAttribute="trailing" id="oXZ-3h-Y7K"/>
+                <constraint firstItem="hGd-ny-DOd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="roR-Kd-369"/>
+                <constraint firstItem="6mj-9M-BOd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="thx-4t-oDn"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

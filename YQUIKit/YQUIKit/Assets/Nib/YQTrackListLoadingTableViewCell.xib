@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="YQTrackListLoadingTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="72"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="71"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NUe-LV-S44">
+                        <rect key="frame" x="16" y="16" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="Rhc-MC-77D">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nuiDefinition" value="@Normal_Width_40"/>
+                                </userDefinedRuntimeAttributes>
+                            </constraint>
+                            <constraint firstAttribute="height" constant="40" id="c4a-bP-gDf">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nuiDefinition" value="@Normal_Height_40"/>
+                                </userDefinedRuntimeAttributes>
+                            </constraint>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FbK-Dd-mNl">
+                        <rect key="frame" x="72" y="36" width="196" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="S2d-Mm-DHg">
+                        <rect key="frame" x="284" y="26" width="20" height="20"/>
+                    </activityIndicatorView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZKX-iU-7ve">
+                        <rect key="frame" x="0.0" y="70" width="320" height="1"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="MbW-YZ-0Ab"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="ZKX-iU-7ve" secondAttribute="trailing" id="17f-AY-b2p"/>
+                    <constraint firstItem="NUe-LV-S44" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="1wq-q6-DzS"/>
+                    <constraint firstItem="NUe-LV-S44" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="7Jc-SC-aDh"/>
+                    <constraint firstItem="S2d-Mm-DHg" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="B6W-zj-GkF"/>
+                    <constraint firstAttribute="trailing" secondItem="S2d-Mm-DHg" secondAttribute="trailing" constant="16" id="TFr-W0-XNI">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="nuiDefinition" value="@Trailing_16"/>
+                        </userDefinedRuntimeAttributes>
+                    </constraint>
+                    <constraint firstAttribute="trailing" secondItem="FbK-Dd-mNl" secondAttribute="trailing" constant="52" id="UKU-nj-CNw"/>
+                    <constraint firstItem="ZKX-iU-7ve" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="e6B-bz-7r8"/>
+                    <constraint firstItem="FbK-Dd-mNl" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="vRh-IK-90q"/>
+                    <constraint firstItem="FbK-Dd-mNl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="72" id="vqk-qo-DiH">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="nuiDefinition" value="@Leading_72"/>
+                        </userDefinedRuntimeAttributes>
+                    </constraint>
+                    <constraint firstAttribute="bottom" secondItem="ZKX-iU-7ve" secondAttribute="bottom" id="wEZ-NG-DtG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="activityIndicator" destination="S2d-Mm-DHg" id="3Ys-PC-V7b"/>
+                <outlet property="lineView" destination="ZKX-iU-7ve" id="jYF-4Q-4WV"/>
+                <outlet property="logoLable" destination="NUe-LV-S44" id="YAQ-PY-GjU"/>
+                <outlet property="nameLabel" destination="FbK-Dd-mNl" id="PL3-XR-762"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

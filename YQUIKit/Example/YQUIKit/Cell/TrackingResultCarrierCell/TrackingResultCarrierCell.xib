@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="carrier.ttf">
+            <string>carrier</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="EC3-kQ-B2d" customClass="TrackingResultCarrierCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EC3-kQ-B2d" id="lXe-KM-LLh">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="63.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="d5y-hq-DZ0">
+                        <rect key="frame" x="16" y="12" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="f9b-6x-gA4">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nuiDefinition" value="@Normal_Height_40"/>
+                                </userDefinedRuntimeAttributes>
+                            </constraint>
+                            <constraint firstAttribute="width" constant="40" id="kBM-hd-0pO">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nuiDefinition" value="@Normal_Height_40"/>
+                                </userDefinedRuntimeAttributes>
+                            </constraint>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="USPS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nwa-tB-LZR">
+                        <rect key="frame" x="72" y="14" width="198" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="United States" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sd6-ls-qZU">
+                        <rect key="frame" x="72" y="37.5" width="77" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C0p-Nj-4zn" userLabel="status">
+                        <rect key="frame" x="280" y="24" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="80K-UO-xpm">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nuiDefinition" value="@Normal_Height_24"/>
+                                </userDefinedRuntimeAttributes>
+                            </constraint>
+                            <constraint firstAttribute="height" constant="24" id="xHV-ph-3Zz">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nuiDefinition" value="@Normal_Height_24"/>
+                                </userDefinedRuntimeAttributes>
+                            </constraint>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9G8-7U-hgw" userLabel="line">
+                        <rect key="frame" x="8" y="62.5" width="312" height="1"/>
+                        <color key="backgroundColor" red="0.87450980392156863" green="0.87450980392156863" blue="0.87450980392156863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="xzC-0e-B0F">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nuiDefinition" value="@Normal_Height_1"/>
+                                </userDefinedRuntimeAttributes>
+                            </constraint>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S3R-Yn-1RB" userLabel="logo">
+                        <rect key="frame" x="16" y="12" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="Z9S-qe-SqC">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nuiDefinition" value="@Normal_Height_40"/>
+                                </userDefinedRuntimeAttributes>
+                            </constraint>
+                            <constraint firstAttribute="width" constant="40" id="bnd-Ez-f4a">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nuiDefinition" value="@Normal_Height_40"/>
+                                </userDefinedRuntimeAttributes>
+                            </constraint>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="carrier" family="carrier" pointSize="24"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vDp-zX-I2s">
+                        <rect key="frame" x="288" y="24" width="16" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="16" id="2ad-cD-y2q">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nuiDefinition" value="@Normal_Height_16"/>
+                                </userDefinedRuntimeAttributes>
+                            </constraint>
+                            <constraint firstAttribute="height" constant="16" id="FU8-WD-diQ">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nuiDefinition" value="@Normal_Height_16"/>
+                                </userDefinedRuntimeAttributes>
+                            </constraint>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b71-X0-pEJ" userLabel="clickRegion">
+                        <rect key="frame" x="260" y="0.0" width="60" height="63.5"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="Ya9-5a-SO1">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nuiDefinition" value="@Normal_Height_60"/>
+                                </userDefinedRuntimeAttributes>
+                            </constraint>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Nwa-tB-LZR" firstAttribute="top" secondItem="lXe-KM-LLh" secondAttribute="top" constant="14" id="59N-7f-ETp">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="nuiDefinition" value="@Top_14"/>
+                        </userDefinedRuntimeAttributes>
+                    </constraint>
+                    <constraint firstAttribute="trailing" secondItem="b71-X0-pEJ" secondAttribute="trailing" id="936-Rc-xcp"/>
+                    <constraint firstAttribute="trailing" secondItem="vDp-zX-I2s" secondAttribute="trailing" constant="16" id="94z-b2-nt9">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="nuiDefinition" value="@Trailing_16"/>
+                        </userDefinedRuntimeAttributes>
+                    </constraint>
+                    <constraint firstItem="b71-X0-pEJ" firstAttribute="top" secondItem="lXe-KM-LLh" secondAttribute="top" id="Aa4-Aq-r2f"/>
+                    <constraint firstItem="Nwa-tB-LZR" firstAttribute="leading" secondItem="Sd6-ls-qZU" secondAttribute="leading" id="CsP-CZ-haR"/>
+                    <constraint firstAttribute="trailing" secondItem="9G8-7U-hgw" secondAttribute="trailing" id="Eof-2U-7cV"/>
+                    <constraint firstItem="9G8-7U-hgw" firstAttribute="leading" secondItem="lXe-KM-LLh" secondAttribute="leading" constant="8" id="MLK-8D-N0k">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="nuiDefinition" value="@Leading_8"/>
+                        </userDefinedRuntimeAttributes>
+                    </constraint>
+                    <constraint firstItem="d5y-hq-DZ0" firstAttribute="leading" secondItem="lXe-KM-LLh" secondAttribute="leading" constant="16" id="O1E-BU-LpY">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="nuiDefinition" value="@Leading_16"/>
+                        </userDefinedRuntimeAttributes>
+                    </constraint>
+                    <constraint firstItem="S3R-Yn-1RB" firstAttribute="leading" secondItem="lXe-KM-LLh" secondAttribute="leading" constant="16" id="OGk-T2-7vj">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="nuiDefinition" value="@Leading_16"/>
+                        </userDefinedRuntimeAttributes>
+                    </constraint>
+                    <constraint firstItem="d5y-hq-DZ0" firstAttribute="top" secondItem="lXe-KM-LLh" secondAttribute="top" constant="12" id="RoM-39-WTq">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="nuiDefinition" value="@Top_12"/>
+                        </userDefinedRuntimeAttributes>
+                    </constraint>
+                    <constraint firstItem="C0p-Nj-4zn" firstAttribute="top" secondItem="lXe-KM-LLh" secondAttribute="top" constant="24" id="S0J-M5-BXt">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="nuiDefinition" value="@Top_24"/>
+                        </userDefinedRuntimeAttributes>
+                    </constraint>
+                    <constraint firstAttribute="bottom" secondItem="9G8-7U-hgw" secondAttribute="bottom" id="Zhb-kR-5ce"/>
+                    <constraint firstAttribute="bottom" secondItem="b71-X0-pEJ" secondAttribute="bottom" id="aor-WT-izD"/>
+                    <constraint firstItem="C0p-Nj-4zn" firstAttribute="leading" secondItem="Nwa-tB-LZR" secondAttribute="trailing" constant="10" id="dxj-Yj-0c2">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="nuiDefinition" value="@Leading_10"/>
+                        </userDefinedRuntimeAttributes>
+                    </constraint>
+                    <constraint firstAttribute="trailing" secondItem="C0p-Nj-4zn" secondAttribute="trailing" constant="16" id="hmo-2M-tPe">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="nuiDefinition" value="@Trailing_16"/>
+                        </userDefinedRuntimeAttributes>
+                    </constraint>
+                    <constraint firstItem="S3R-Yn-1RB" firstAttribute="top" secondItem="lXe-KM-LLh" secondAttribute="top" constant="12" id="iCs-Cw-QBB">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="nuiDefinition" value="@Top_12"/>
+                        </userDefinedRuntimeAttributes>
+                    </constraint>
+                    <constraint firstItem="Nwa-tB-LZR" firstAttribute="leading" secondItem="lXe-KM-LLh" secondAttribute="leading" constant="72" id="mpX-Ay-eI8"/>
+                    <constraint firstItem="vDp-zX-I2s" firstAttribute="top" secondItem="lXe-KM-LLh" secondAttribute="top" constant="24" id="n1W-DJ-4zU">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="nuiDefinition" value="@Top_24"/>
+                        </userDefinedRuntimeAttributes>
+                    </constraint>
+                    <constraint firstItem="Sd6-ls-qZU" firstAttribute="top" secondItem="Nwa-tB-LZR" secondAttribute="bottom" constant="4" id="oFa-UV-Qhe">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="nuiDefinition" value="@Top_4"/>
+                        </userDefinedRuntimeAttributes>
+                    </constraint>
+                    <constraint firstAttribute="bottom" secondItem="Sd6-ls-qZU" secondAttribute="bottom" constant="28" id="zbV-HJ-Sw8"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="zbV-HJ-Sw8"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="carrierCountryLabel" destination="Sd6-ls-qZU" id="1nD-xI-p1v"/>
+                <outlet property="carrierIconImageView" destination="d5y-hq-DZ0" id="aZM-lG-6BD"/>
+                <outlet property="carrierLogoLable" destination="S3R-Yn-1RB" id="z7p-CF-Oye"/>
+                <outlet property="carrierNameLabel" destination="Nwa-tB-LZR" id="Lek-QA-m6h"/>
+                <outlet property="carrierNameTopContraint" destination="59N-7f-ETp" id="efH-Py-uUu"/>
+                <outlet property="clickRegionView" destination="b71-X0-pEJ" id="oKL-7X-Rqh"/>
+                <outlet property="countryBottomContraint" destination="zbV-HJ-Sw8" id="wc8-GR-eim"/>
+                <outlet property="informationLabel" destination="vDp-zX-I2s" id="vp9-1S-KOp"/>
+                <outlet property="lineBottomContraint" destination="Zhb-kR-5ce" id="Pmg-eN-4ib"/>
+                <outlet property="lineView" destination="9G8-7U-hgw" id="3nz-u9-1pR"/>
+                <outlet property="statusLabel" destination="C0p-Nj-4zn" id="Tmo-li-xwt"/>
+            </connections>
+            <point key="canvasLocation" x="132" y="261"/>
+        </tableViewCell>
+    </objects>
+</document>
